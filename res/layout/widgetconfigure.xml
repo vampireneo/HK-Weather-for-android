@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/mainlayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+
+
+	<TableLayout
+	android:id="@+id/m11"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:background="@drawable/white"
+	>
+	<TableRow>
+<LinearLayout
+		android:id="@+id/widget10"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+>
+			<TextView
+				android:id="@+id/thetop"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/widget1"
+				android:textColor="@drawable/black"
+				android:textSize="24sp"
+				android:gravity="left"
+				android:layout_gravity="center_horizontal"
+			>
+			</TextView>
+</LinearLayout>
+	</TableRow>
+	</TableLayout>
+
+
+
+	
+	
+
+
+<ScrollView
+android:id="@+id/m12"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_weight="0"
+android:layout_below="@+id/m11"
+>
+	<LinearLayout
+		android:id="@+id/widget28"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+
+		<TextView
+		android:id="@+id/spanel0"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="\n "
+		android:textSize="10sp"
+		android:textColor="@drawable/black"
+		android:background="@drawable/white"
+		>
+		</TextView>
+
+		<TextView
+		android:id="@+id/s1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/widget2"
+		android:textColor="@drawable/black"
+		android:background="@drawable/white"
+		android:textSize="18sp"
+		>
+		</TextView>
+		
+		<RadioGroup
+		android:id="@+id/widget_update"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="@drawable/white"
+		>
+		<RadioButton
+		android:id="@+id/widget_update1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/widget5"
+		android:textColor="@drawable/black"
+		>
+		</RadioButton>
+		<RadioButton
+		android:id="@+id/widget_update2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/widget6"
+		android:textColor="@drawable/black"
+		>
+		</RadioButton>
+		<RadioButton
+		android:id="@+id/widget_update3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/widget7"
+		android:textColor="@drawable/black"
+		>
+		</RadioButton>
+		</RadioGroup>
+
+		<TextView
+		android:id="@+id/spanel2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="\n "
+		android:textSize="18sp"
+		android:textColor="@drawable/black"
+		android:background="@drawable/white"
+		>
+		</TextView>
+		
+		<TextView
+		android:id="@+id/s2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/widget3"
+		android:textSize="18sp"
+		android:textColor="@drawable/black"
+		android:background="@drawable/white"
+		>
+		</TextView>
+
+
+	
+		<RadioGroup
+		android:id="@+id/widget_background"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		
+		>
+		<RadioButton
+		android:id="@+id/widget_b1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawableRight="@drawable/w_1"
+		>
+		</RadioButton>
+		<RadioButton
+		android:id="@+id/widget_b2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawableRight="@drawable/w_2"
+		>
+		</RadioButton>
+		<RadioButton
+		android:id="@+id/widget_b3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawableRight="@drawable/w_3"
+		>
+		</RadioButton>
+		<RadioButton
+		android:id="@+id/widget_b4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawableRight="@drawable/emptybutton"
+		>
+		</RadioButton>
+		</RadioGroup>
+
+
+
+		<TextView
+		android:id="@+id/spane5"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="\n"
+		android:textSize="20sp"
+		android:textColor="@drawable/black"
+		android:background="@drawable/white"
+		>
+		</TextView>
+
+		<TextView
+		android:id="@+id/spane6"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="\n"
+		android:textSize="20sp"
+		android:textColor="@drawable/black"
+		android:background="@drawable/white"
+		>
+		</TextView>
+		
+	</LinearLayout>
+</ScrollView>
+
+
+
+	<TableLayout
+	android:id="@+id/m13"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:background="@drawable/white"
+	android:layout_alignParentBottom="true"
+	android:layout_alignParentLeft="true"
+	>
+	<TableRow>
+		<Button
+		android:id="@+id/choose"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/widget4"
+		android:layout_gravity="center_horizontal"
+		>
+		</Button>
+	</TableRow>
+	</TableLayout>
+
+
+
+
+		
+</RelativeLayout>

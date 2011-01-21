@@ -1,0 +1,8 @@
+<appwidget-provider
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:initialLayout="@layout/weatherwidget"
+android:minWidth="144dip"
+android:minHeight="72dip"
+android:configure="androidbaby.hkweather.widget_widgetconfigure"
+>
+</appwidget-provider>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget28"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+	<TableLayout
+	android:id="@+id/m1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:background="@drawable/theback1"
+	>
+	<TableRow>
+
+			<ImageView
+			android:id="@+id/pic"
+			android:layout_width="36sp"
+			android:layout_height="36sp"
+			android:src="@drawable/icon"
+			android:layout_alignParentLeft="true"
+			>
+			</ImageView>
+			<TextView
+			android:id="@+id/topicshow"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/app_name5"
+			android:textColor="@drawable/white"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			android:textSize="24sp"
+			>
+			</TextView>
+	</TableRow>
+	</TableLayout>
+	
+
+
+	<ScrollView
+	android:id="@+id/scrollview1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/m1"
+	android:layout_above="@+id/buttontable4"
+	>
+	<LinearLayout
+		android:id="@+id/widget28"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+
+<TextView
+android:id="@+id/ntext1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/helpmetext3"
+android:textSize="22sp"
+android:gravity="left"
+android:layout_gravity="center_horizontal"
+>
+</TextView>
+
+<RadioGroup
+android:id="@+id/setting1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+>
+<RadioButton
+android:id="@+id/noupdate"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/helpmetext7"
+>
+</RadioButton>
+<RadioButton
+android:id="@+id/update15"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/helpmetext4"
+>
+</RadioButton>
+<RadioButton
+android:id="@+id/update30"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/helpmetext5"
+>
+</RadioButton>
+<RadioButton
+android:id="@+id/update60"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/helpmetext6"
+>
+</RadioButton>
+</RadioGroup>
+
+
+<CheckBox
+android:id="@+id/notification_sound"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="提示音"
+>
+</CheckBox>
+<CheckBox
+android:id="@+id/notification_shake"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="提示震動"
+>
+</CheckBox>
+<CheckBox
+android:id="@+id/notification_reshow"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="重啟後顯示重複的提示"
+>
+</CheckBox>
+<CheckBox
+android:id="@+id/notification_error"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="更新失敗提示"
+>
+</CheckBox>
+
+<TextView
+android:id="@+id/ntext3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="22sp"
+android:gravity="left"
+android:layout_gravity="center_horizontal"
+>
+</TextView>
+
+
+
+<TextView
+android:id="@+id/alltext"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/helpmetext"
+android:textColor="@drawable/white"
+android:textSize="20sp"
+>
+</TextView>
+
+<TextView
+android:id="@+id/ntext4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="2sp"
+android:gravity="left"
+android:layout_gravity="center_horizontal"
+>
+</TextView>
+
+
+<TextView
+android:id="@+id/last_service_update"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="16sp"
+android:textColor="@drawable/white"
+>
+</TextView>
+
+
+<TextView
+android:id="@+id/last_widget_update"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="16sp"
+android:textColor="@drawable/white"
+>
+</TextView>
+
+<TextView
+android:id="@+id/ntext5"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="22sp"
+android:gravity="left"
+android:layout_gravity="center_horizontal"
+>
+</TextView>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
+
+
+
+<TextView
+android:id="@+id/ntext8"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="22sp"
+android:gravity="left"
+android:layout_gravity="center_horizontal"
+>
+</TextView>
+
+
+
+<RelativeLayout
+android:id="@+id/buttontable4"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:layout_alignParentLeft="true"
+android:background="@drawable/theback2"
+>
+		<ImageButton
+			android:id="@+id/button_f"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/emptybutton"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_e"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_d"
+			android:src="@drawable/emptybutton"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_d"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_c"
+			android:src="@drawable/wbutton4"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_c"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_b"
+			android:src="@drawable/wbutton3"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_b"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_a"
+			android:src="@drawable/wbutton2"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_a"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+			android:src="@drawable/wbutton1"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"			
+			>
+		</ImageButton>
+</RelativeLayout>
+
+
+
+
+</RelativeLayout>

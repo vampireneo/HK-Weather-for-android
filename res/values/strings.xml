@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">香港天氣</string>
+    <string name="app_name4">把天氣消息分享給朋友</string>
+    <string name="app_name5"> 香港天氣 設定</string>
+    <string name="updatetime">更新時間</string>
+    <string name="air">空氣指數:</string>
+    <string name="errorlink">未能連線網絡 , 請稍後再嘗試 !</string>
+    <string name="errorload">尚有部分資訊未能讀取\n(例如沒有風暴圖) !</string>
+    <string name="errormade">未能建立資訊</string>
+    <string name="loading">資料下載中 ...</string>
+    <string name="ok">碓定</string>
+
+    <string name="helpmetext">\n背後運行資訊(通知、Widget):\n</string>
+    <string name="helpmetext2">設定時間後 , 需要重新開啟通知</string>
+    
+    <string name="helpmetext3">生效警告通知</string>
+    <string name="helpmetext4">開啟並每15分鐘更新</string>
+    <string name="helpmetext5">開啟並每30分鐘更新</string>
+    <string name="helpmetext6">開啟並每一小時更新</string>
+    <string name="helpmetext7">關閉</string>
+    
+    <string name="alert_1">使用方法 :</string>
+	<string name="alert_2">不再提示</string>
+	<string name="alert_3">繼續 >></string>
+	<string name="alert_4">圖示說明:</string>
+	
+	<string name="alert_5">現時天氣資訊</string>
+	<string name="alert_6">天氣預報</string>
+	<string name="alert_7">各區天氣</string>
+	<string name="alert_8">分享天氣</string>
+	<string name="alert_9">設定</string>
+	
+	<string name="alert_10">此外,在現時天氣資訊頁面按上生效警告圖示,便會進入詳細警告資訊和風暴圖資訊\n\n本應用程式提供了香港天文台天氣插圖 ,生效警告圖示,生效警告資訊  ,現時香港天氣溫度 ,濕度,紫外光指數 ,天氣概況資訊 ,未來7日天氣資訊 ,風暴圖 ,各區天氣等等有關資訊,並可以利用Widget建立資訊在桌面上\n天氣資料複製授權來自香港天文台。本應用程式授權 / 參考編號 : HKOG 6/20/13 _ S/N: 000957\n\n空氣污染指數資料複製授權來自環境保護署，除非預先得到環境保護署的授權，否則嚴禁複製、改編、分發、發布或向公眾提供該等資料。授權 / 參考編號 : EP130/C4/1\n\n此應用程式是經過網路取得資料 , 並不能保証所取得資料準確性 , 如有任何問題 , 可以到政府的天文台或環境保護署網站取得正確資料。\n</string>
+	
+	
+	<string name="alert_11">Widget選擇:</string>
+    <string name="alert_12">預設\n(小工具內)</string>
+    <string name="alert_13">春牛圖\n(請到Market下載)</string>
+    
+    <string name="forecasttext">天氣預測</string>
+  
+  	<string name="twittertext0">Android 香港天氣話你知 :</string>   
+  	<string name="twittertext1">確定</string> 
+    <string name="twittertext2">把香港天氣消息分享</string> 
+    
+    <string name="warntext">天氣警告</string>
+    <string name="nowarn">現時並無警告生效。</string>
+    
+    
+    <string name="localtext">各區天氣</string>
+      
+    <string name="widgetname">香港天氣Widget</string> 
+    <string name="widget1">新增香港天氣Widget</string> 
+    <string name="widget2">更新Widget時間</string> 
+    <string name="widget3">Widget面板</string> 
+    <string name="widget4">\n　新增　\n</string>
+    <string name="widget5">每十五分鐘更新</string>     
+    <string name="widget6">每半小時更新</string>
+    <string name="widget7">每一小時更新</string>
+    <string name="widget8">hkweather Widget更新中...</string>
+    
+     
+</resources>

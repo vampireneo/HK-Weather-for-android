@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/mainlayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+	<TableLayout
+		android:id="@+id/importtable"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_above="@+id/buttontable2"
+		android:layout_alignParentLeft="true"
+		android:stretchColumns="5"
+		android:background="@drawable/theback1"
+
+	>
+		<TableRow
+		android:id="@+id/importtext"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+			<TextView
+			android:id="@+id/localweather"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="1sp"
+			android:textColor="@drawable/white"
+			>
+			</TextView>
+	</TableRow>
+	</TableLayout>
+	
+	<TableLayout
+		android:id="@+id/buttontable2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_above="@+id/buttontable3"
+		android:layout_alignParentLeft="true"
+		android:stretchColumns="0,1,2,3,4,5,6,7,8,9"
+		android:background="@drawable/theback1"
+	>
+	<TableRow>	
+			<ImageView
+			android:id="@+id/sample_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			>
+			</ImageView>
+			<ImageButton
+			android:id="@+id/warn1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custombtn"
+			android:layout_gravity="center_vertical"
+			>
+			</ImageButton>
+			<ImageButton
+			android:id="@+id/warn2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custombtn"
+			android:layout_gravity="center_vertical"
+			>
+			</ImageButton>
+			<ImageButton
+			android:id="@+id/warn3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custombtn"
+			android:layout_gravity="center_vertical"
+			>
+			</ImageButton>
+			<ImageButton
+			android:id="@+id/warn4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custombtn"
+			android:layout_gravity="center_vertical"
+			>
+			</ImageButton>
+			<TextView
+			android:id="@+id/emptytext"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="22sp"
+			android:text=""
+			android:textColor="@drawable/white"
+			android:layout_gravity="center_horizontal"
+			>
+			</TextView>
+			<TextView
+			android:id="@+id/temp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text=" "
+			android:textColor="@drawable/white"
+			android:layout_gravity="center_vertical"
+			>
+			</TextView>
+			<TextView
+			android:id="@+id/tempper"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text=" "
+			android:textColor="@drawable/white"
+			android:layout_gravity="center_vertical"
+			>
+			</TextView>
+			<TextView
+			android:id="@+id/uv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="  "
+			android:textSize="18sp"
+			android:textColor="@drawable/white"
+			android:layout_gravity="center_vertical"
+			>
+			</TextView>
+
+	</TableRow>
+	</TableLayout>
+
+	
+	
+	<TableLayout
+		android:id="@+id/buttontable3"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_above="@+id/buttontable4"
+		android:layout_alignParentLeft="true"
+		android:stretchColumns="0"
+		android:background="@drawable/theback1"
+	>
+	<TableRow>	
+			<TextView
+			android:id="@+id/ap"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="   "
+			android:textSize="12sp"
+			android:gravity="center"
+			android:textColor="@drawable/white"
+			>
+			</TextView>
+	</TableRow>
+	<TableRow>	
+			<TextView
+			android:id="@+id/empty1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="   "
+			android:textSize="10sp"
+			>
+			</TextView>
+	</TableRow>
+	</TableLayout>		
+		
+		
+
+
+<RelativeLayout
+android:id="@+id/buttontable4"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:layout_alignParentLeft="true"
+android:background="@drawable/theback2"
+>
+		<ImageButton
+			android:id="@+id/button_f"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/wbutton6"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_e"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_d"
+			android:src="@drawable/wbutton5"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_d"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_c"
+			android:src="@drawable/wbutton4"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_c"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_b"
+			android:src="@drawable/wbutton3"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_b"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_a"
+			android:src="@drawable/wbutton2"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_a"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+			android:src="@drawable/emptybutton"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			>
+		</ImageButton>
+</RelativeLayout>
+
+
+	
+	
+</RelativeLayout>

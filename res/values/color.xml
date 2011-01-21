@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <drawable name="white">#FFFFFF</drawable>
+  <drawable name="black">#000000</drawable>
+  <drawable name="blue">#0000FF</drawable>
+  <drawable name="red">#FF0000</drawable>
+  <drawable name="darkgray">#808080</drawable>
+  <drawable name="gray1">#E5E5E5</drawable>
+  <drawable name="gray2">#EBEBEB</drawable>
+  <drawable name="CC6600">#CC6600</drawable>
+  <drawable name="xmain1">#293E51</drawable>
+  <drawable name="xmain2">#2C4762</drawable>
+  <drawable name="xmain3">#2E5370</drawable> 
+  <drawable name="EBEBEB">#EBEBEB</drawable> 
+  <drawable name="green1">#4E898D</drawable>
+  <drawable name="FDDA3E">#FDDA3E</drawable>
+  <drawable name="gray3">#19110E</drawable>
+  <drawable name="B0564D">#B0564D</drawable>
+  <drawable name="D7F0FF">#D7F0FF</drawable>
+  <drawable name="D6D">#274d6b</drawable>
+  
+  
+  <drawable name="transparent_background">#00000000</drawable>
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="androidbaby.hkweather"
+      android:versionCode="87"
+      android:versionName="3"
+      >
+      
+<!-- 權限 : 上網連線 	-->
+		<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<!-- 權限 : 重啟自動執行 	-->	
+		<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+<!-- 權限 : 震動 	-->	
+		<uses-permission android:name="android.permission.VIBRATE"/>
+<!-- 權限 : SD卡寫入權限 	-->		
+		<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission> 	   
+
+<!-- SDK版本  	-->	
+		<uses-sdk android:minSdkVersion="4" />
+
+<!-- 螢幕版本 -->	     
+    <supports-screens android:smallScreens="true"	
+                    android:normalScreens="true"
+                     android:largeScreens="true" 	
+                      android:anyDensity="true" 
+    />
+    
+
+    
+      
+<!-- activity -->
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    <!-- GoogleMaps -->	 
+    <uses-library android:name="com.google.android.maps"/>
+    
+        <activity android:name=".main"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait" 
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name="forecast"
+                  android:screenOrientation="portrait"
+                  android:label="@string/app_name"
+                  >
+		</activity>
+		
+        <activity android:name="local"
+                  android:screenOrientation="portrait"
+                  android:label="@string/app_name"
+                  >
+		</activity>
+		
+        <activity android:name="warn"
+                  android:label="@string/app_name"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN2" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+		</activity>
+		
+				
+        <activity android:name="twitter"
+                  android:screenOrientation="portrait"
+                  android:label="@string/app_name"
+                  >
+		</activity>
+		
+        
+         <activity android:name="helpme"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/Theme.Translucent"  
+                  android:label="@string/app_name"
+                  >
+		</activity>       
+        
+        
+        
+        
+        <activity android:name="shownotification"
+                  android:screenOrientation="portrait"  
+                  android:label="@string/app_name">
+		</activity>
+        
+        <service android:name="notification"
+        	android:label="@string/app_name"
+			android:exported="true"
+			android:process=":remote"
+			android:icon="@drawable/icon"
+        >
+        </service>
+        
+        <service android:name="notification_stratservice"
+        	android:label="@string/app_name"
+			android:exported="true"
+			android:process=":remote"
+			android:icon="@drawable/icon"
+        >
+        <intent-filter> 
+        		<action android:name="com.android.alarmclock.ALARM_ALERT" />  
+      	</intent-filter> 
+        </service>
+        
+        <receiver android:name="notification_autorun"> 
+    	</receiver>   
+        
+        
+        
+        
+<!-- 重新開機自動載入	-->
+        <receiver android:name="broadcastReceiver"> 
+      		<intent-filter> 
+          		<action android:name="android.intent.action.BOOT_COMPLETED"/> 
+          		<category android:name="android.intent.category.HOME" /> 
+      		</intent-filter> 
+    	</receiver>
+    	
+
+
+<!-- Widget  -->
+        <activity android:name="widget_widgetconfigure"
+        		  android:screenOrientation="portrait" 
+        		  android:theme="@style/Theme.Translucent2" 
+        		  >
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+			</intent-filter>
+		</activity> 
+		
+		      
+		<receiver android:name="widget_hkweather" android:label="@string/widgetname" android:icon="@drawable/icon">
+             <intent-filter>
+             	 <action android:name="android.intent.ACTION_TIME_TICK"/> 
+             	 <action android:name="com.android.alarmclock.ALARM_ALERT" /> 
+                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                 <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+                 <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />                 
+                 <action android:name="hkweather.update.SendAction" />
+             </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info" />
+ 		</receiver>
+		      
+       <service android:name="widget_stratservice"
+        	android:label="@string/app_name"
+			android:exported="true"
+			android:process=":remote"
+			android:icon="@drawable/icon"
+        >
+        <intent-filter> 
+        		<action android:name="com.android.alarmclock.ALARM_ALERT" />  
+      	</intent-filter> 
+        </service> 
+		      
+		<receiver android:name="widget_autorun"> 
+    	</receiver>   
+		      
+        
+        
+        
+    </application>
+</manifest> 
+
+
+
+<!--
+PreferenceManager
+
+notification_update = 15 / 30 / 60
+notification_sound =  0 / 1
+notification_shake =  0 / 1
+notification_reshow =  0 / 1
+notification_text = x
+notification_text_update = x
+notification_error = 0 / 1
+
+widget_update = 15 / 30 / 60
+widget = true / false
+widget_background = 1 / 2 /3
+widget_test_update = x
+ -->
+

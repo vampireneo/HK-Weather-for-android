@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/mainlayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/FDDA3E"
+>
+
+
+
+<ScrollView
+	android:id="@+id/m1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="2"
+>	
+	<TableLayout
+		android:id="@+id/table1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="0"
+	>
+		<TableRow android:background="@drawable/white" >
+				<EditText
+					android:id="@+id/edit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="20sp"
+					android:textColor="@drawable/black"
+					android:lines="2"
+				>
+				</EditText>
+		</TableRow>
+		<TableRow>
+	 			<Button
+	 				android:id="@+id/ok"
+	 				android:layout_alignParentRight="true"
+	 				android:layout_width="wrap_content"
+	 				android:layout_height="wrap_content"
+	 				android:text="@string/twittertext1"
+	 			>
+	 			</Button>
+		</TableRow>
+</TableLayout>
+</ScrollView>
+
+<ScrollView
+	android:id="@+id/m2"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/m1"
+	android:layout_above="@+id/buttontable4"
+>		
+		<LinearLayout
+		android:id="@+id/linlayoutButtons"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		>
+
+				<Button android:id="@+id/add0" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:text=""
+ 				></Button>
+
+				<Button android:id="@+id/add4" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:text=""
+ 				></Button>
+ 				
+ 				<Button android:id="@+id/add5" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:text=""
+ 				></Button>
+ 				
+ 				<Button android:id="@+id/add6" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:text=""
+ 				></Button>
+
+ 				<Button android:id="@+id/add7" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:text=""
+ 				></Button>
+
+ 				<Button android:id="@+id/add8" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:text=""
+ 				></Button>
+ 				
+ 				<Button android:id="@+id/add9" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:text=""
+ 				></Button>
+
+ 				<Button android:id="@+id/add10" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:text=""
+ 				></Button>
+ 					
+				
+		</LinearLayout>
+</ScrollView>
+
+
+<RelativeLayout
+android:id="@+id/buttontable4"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:layout_alignParentLeft="true"
+>
+		<ImageButton
+			android:id="@+id/button_f"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/thebutton6"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_e"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_d"
+			android:src="@drawable/thebutton5"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_d"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_c"
+			android:src="@drawable/emptybutton"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_c"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_b"
+			android:src="@drawable/thebutton3"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_b"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_a"
+			android:src="@drawable/thebutton2"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_a"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+			android:src="@drawable/thebutton1"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			
+			>
+		</ImageButton>
+</RelativeLayout>
+
+
+
+</RelativeLayout>

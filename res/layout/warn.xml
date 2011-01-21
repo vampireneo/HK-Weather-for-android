@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/mainlayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/D7F0FF"
+>
+
+
+<RelativeLayout
+		android:id="@+id/m1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+>
+			<TextView
+			android:id="@+id/topic2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/warntext"
+			android:textColor="@drawable/B0564D"
+			android:textSize="24sp"
+			android:gravity="center"
+			>
+			</TextView>
+</RelativeLayout>
+
+
+
+
+<ScrollView
+	android:id="@+id/scrollview"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/m1"
+	android:layout_above="@+id/buttontable4"
+>
+	<LinearLayout
+		android:id="@+id/all"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+
+
+			<TextView
+			android:id="@+id/separator1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"			
+			android:textSize="20sp"
+			android:textColor="@drawable/white"
+			>
+			</TextView>
+			
+			<TextView
+			android:id="@+id/alltext"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"			
+			android:textSize="20sp"
+			android:textColor="@drawable/B0564D"
+			>
+			</TextView>
+						
+			
+			
+			<TextView
+			android:id="@+id/separator2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"			
+			android:textSize="20sp"
+			android:textColor="@drawable/white"
+			>
+			</TextView>
+			
+			<ImageButton
+			android:id="@+id/tc_pic"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/transparent"
+			>
+			</ImageButton>	
+			
+			<TextView
+			android:id="@+id/separator3"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"			
+			android:textSize="20sp"
+			android:textColor="@drawable/white"
+			>
+			</TextView>
+
+			<ImageButton
+			android:id="@+id/zoom_pic"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/transparent"
+			>
+			</ImageButton>	
+
+			<TextView
+			android:id="@+id/separator3"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"			
+			android:textSize="40sp"
+			android:textColor="@drawable/white"
+			>
+			</TextView>
+
+
+	</LinearLayout>
+	
+</ScrollView>
+	
+
+
+<RelativeLayout
+android:id="@+id/buttontable4"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:layout_alignParentLeft="true"
+>
+		<ImageButton
+			android:id="@+id/button_f"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/thebutton6"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_e"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_d"
+			android:src="@drawable/thebutton5"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_d"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_c"
+			android:src="@drawable/thebutton4"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_c"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_b"
+			android:src="@drawable/thebutton3"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			
+		>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_b"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/button_a"
+			android:src="@drawable/thebutton2"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			>
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/button_a"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+			android:src="@drawable/thebutton1"
+			android:background="@drawable/custombtn"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			
+			>
+		</ImageButton>
+</RelativeLayout>
+
+
+	
+</RelativeLayout>
