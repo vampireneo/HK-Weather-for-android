@@ -9,6 +9,7 @@ HK-Weather-for-android
 之後有很多事情去辦，真的没時間再為此APP 作重新編寫，
 不如就分享給大家吧 。。。
 （但這個CODE D UI 係有D問題 ，無乜用副線程﹣ ﹣）
+（有些地方寫寫下無寫到，好像多左好多CODE 係無用途﹣ ﹣ ）
 
 
 broadcastReceiver.java  開機接收用
