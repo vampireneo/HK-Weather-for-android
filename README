@@ -1,1 +1,30 @@
-test
+HK-Weather-for-android 
+這是開源的代碼，歡迎各位人仕使用，
+但如果要分享，必須提供此連結
+
+
+這是我09年個第一個 Android 寫既APP ， 
+由於初次嘗試 ， 估唔到前前後後寫左三個月
+（因為當初1.5ver 無支援螢幕大細問題，後來又重寫左）
+之後有很多事情去辦，真的没時間再為此APP 作重新編寫，
+不如就分享給大家吧 。。。
+（但這個CODE D UI 係有D問題 ，無乜用副線程﹣ ﹣）
+
+
+broadcastReceiver.java  開機接收用
+forecast.java 7日天氣
+helpme.java 設定
+local.java 各區天氣
+main.java  主頁
+notification.java 通知欄
+notification_autorun.java  通知RUN
+notification_stratservice.java strat通知service
+shownotification.java 顯示notification
+twitter.java 分享資訊
+warn.java 天氣警告
+widget_autorun.java WIDGET＿RUN
+widget_hkweather.java 主WIDGET
+widget_stratservice.java 	widget通知service
+widget_widgetconfigure.java 比用戶widget設定
+
+
